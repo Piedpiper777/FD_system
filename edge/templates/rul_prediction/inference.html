@@ -261,7 +261,7 @@
                                 <select class="form-select" id="dataFileSelect" name="data_file" required>
                                     <option value="">加载中...</option>
                                 </select>
-                                <button type="button" class="btn btn-outline-secondary" title="刷新数据文件" onclick="loadDataFiles()">
+                                <button type="button" class="btn btn-outline-secondary" title="刷新数据文件" onclick="if (typeof loadDataFiles === 'function') loadDataFiles(); else alert('页面加载中，请稍候');">
                                     <i class="fas fa-sync"></i>
                                 </button>
                             </div>
@@ -359,7 +359,7 @@
     </div>
 </div>
 
-<script src="https://cdn.jsdelivr.net/npm/chart.js@3.9.1/dist/chart.min.js"></script>
+<script src="https://unpkg.com/chart.js@3.9.1/dist/chart.min.js"></script>
 <script>
 let rulChart = null;
 let currentResult = null;
