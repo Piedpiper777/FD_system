@@ -1,9 +1,10 @@
 # 华中科技大学机械科学与工程学院运筹与优化团队工业设备智能健康管理平台
 
+## ❗此仓库全部为mindspore框架，如需pytorch框架请移步https://github.com/Piedpiper777/FD_system_agent.git
 ## 一、项目部署与环境配置
 1. 本地安装git
 2. 本地新建一个文件夹，如project（自己做好文件管理即可）
-3. 在这个文件夹路径下运行 git clone https://github.com/Piedpiper777/FD_system_agent.git
+3. 在这个文件夹路径下运行 git clone https://github.com/Piedpiper777/FD_system.git
 4. 安装conda
 5. 配置conda环境
 - Edge环境
