@@ -1,4 +1,4 @@
-# 华中科技大学机械科学与工程学院运筹与优化团队工业设备智能健康管理平台
+# 华中科技大学运筹与优化团队工业设备智能健康管理平台
 
 ## ❗此仓库全部为mindspore框架，如需pytorch框架请移步https://github.com/Piedpiper777/FD_system_agent.git
 ## 一、项目部署与环境配置
